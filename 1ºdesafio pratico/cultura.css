@@ -1,0 +1,175 @@
+header {
+    background: #5b8eb8;
+    margin: auto;
+    text-align: center;
+    width: 100%; 
+    padding: 30px 0px;
+
+}
+
+
+.caixa {
+    position: relative;
+    margin: auto;
+    width: 100%;
+}
+
+
+h1 {
+    color: #3d1d1dd2;
+    position: absolute;
+    left: 90px;
+    padding: 5px;
+    margin: 54px;
+    margin-left: 15px;
+}
+
+h2 {
+    margin: 0  0 10px;
+    text-align: center;
+    width: 100%; 
+    padding-top: 10px; 
+    padding-bottom: 20px; 
+}
+
+h2 img {
+    width: 100px;  
+}
+.cabecalho {
+    display: inline-block;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    text-decoration: none;
+}
+nav li {
+    display: inline-block;
+    /* margin: 0 0 0 55px; */
+    /* margin-bottom: 100px; */
+    padding: 20px;
+    border-color: #00000029;
+    border-width: 1px; 
+    border-style: solid;
+    margin-left:10px;
+    margin-right: 10px;
+}
+nav a {
+    text-transform: uppercase;
+    color: #000000d7;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav li:hover {
+background-color: #1136af; 
+
+transition: 0.7s;
+
+opacity: 0.9;
+}
+.menu-bar {
+    border: rgba(0, 0, 0, 0.255) solid 2px;
+    text-align: center;
+    
+    }
+
+.cultura-head {
+    color: #71a9d6;
+    border-color: #313e8529;
+    background: rgb(102, 7, 7);
+    border-width: 1px; 
+    border-style: solid;
+    margin-left:10px;
+    margin-right: 10px;
+}
+
+footer {
+    text-align: center;
+    background: url("fundo-texturizado.jpg");
+    padding: 40px 0;
+}
+footer img{
+    height: 70px;
+}
+.copyright {
+    color: cornsilk;
+    font-size: 13px;
+    margin: 20px 0 0;
+}
+
+/* coloquei uma foto de background na sessão das listas com os nomes das danças */
+#background-cultura {
+    background-image: url(bumba-meu-boi.jpg), url(fundo-vermelho.jpg);
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+    padding: 15px;
+    margin: 10px;
+    color: rgb(233, 199, 199);
+  }
+  #dancas-texto {
+      background: rgb(181, 226, 243);
+  }
+
+.background {
+    background: skyblue;
+}
+/* editando a borda das galerias de imagens */
+  div.gallery {
+    border: 1px solid rgb(112, 37, 37);
+  }
+  /* mudança da cor da borda ao posicionar o mouse sobre elas */
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  /* divisão para o tittle bumba-meu-boi */
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  /* galeria responsiva */
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  /* clicando na imagem, ela abre em tela cheia */
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+/* cor do background da culinária */
+ #culinaria {
+     background: tomato;
+ }
+ .texto-head {
+     background-color: white;
+ }
+ #texto-culinaria {
+     font-weight: bolder;
+     font-size: 30px;
+ }
+  
+  
